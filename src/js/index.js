@@ -17,7 +17,7 @@ let gameover = false;
 const main = (currentTime) => {
   if (gameover) {
     if (confirm('You lost, press ok to restart')){
-      window.location = '/'
+      window.location.reload();
     }
     return
   }
